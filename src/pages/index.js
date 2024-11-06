@@ -6,7 +6,7 @@ const IndexPage = () => (
   <div>
     <div className="MainPage">
       <div className="MainPageGroup">
-        <h1>How to decide <br/> if you should work from home</h1>
+        <h1>How to stay <br /> at home if you are sick or unwell</h1>
         <p>So not to infect your dearest colleagues</p>
         <Link to="/page-2/">How to get rid of fever</Link>
         <div className="Logos">
