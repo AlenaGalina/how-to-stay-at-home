@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/Card'
 
 const IndexPage = () => (
   <div>
     <div className="MainPage">
       <div className="MainPageGroup">
-        <h1>Try to <br/> remember how it all works</h1>
-        <p>Do you actually need this, when there is https://bolt.new/</p>
+        <h1>How to decide <br/> if you should work from home</h1>
+        <p>So not to infect your dearest colleagues</p>
         <Link to="/page-2/">How to get rid of fever</Link>
         <div className="Logos">
           <img src={require('../imgs/logo-sketch.png')} width="50" />
@@ -29,6 +30,47 @@ const IndexPage = () => (
             />
           </path>
         </svg>
+      </div>
+    </div>
+    <div className="Cards">
+      <h2>9 signs to stay at home</h2>
+      <div className="CardGroup">
+        <Card
+          title="Fever"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper.jpg')} />
+        <Card
+          title="Feeling feverish/chills"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper2.jpg')} />
+        <Card
+          title="Cough"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper3.jpg')} />
+        <Card
+          title="Sore throat"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper4.jpg')} />
+        <Card
+          title="Runny nose"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper.jpg')} />
+        <Card
+          title="Stuffy nose"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper2.jpg')} />
+        <Card
+          title="Muscle/Body aches"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper3.jpg')} />
+        <Card
+          title="Headaches"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper4.jpg')} />
+        <Card
+          title="Fatigue (tiredness)"
+          text="When they sick AF"
+          image={require('../imgs/wallpaper.jpg')} />
       </div>
     </div>
   </div>
