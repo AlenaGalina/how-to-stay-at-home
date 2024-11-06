@@ -8,7 +8,7 @@ const IndexPage = () => (
       <div className="MainPageGroup">
         <h1>How to stay <br /> at home if you are sick or unwell</h1>
         <p>So not to infect your dearest colleagues</p>
-        <Link to="/page-2/">How to get rid of fever</Link>
+        <Link to="/page-2/">PRO TIP: How to get rid of fever</Link>
         <div className="Logos">
           <img src={require('../imgs/logo-sketch.png')} width="50" />
           <img src={require('../imgs/logo-figma.png')} width="50" />
@@ -33,43 +33,43 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Cards">
-      <h2>9 signs to stay at home</h2>
+      <h2>9 questions to ask yourself</h2>
       <div className="CardGroup">
         <Card
-          title="Fever"
-          text="When they sick AF"
+          title="Fever?"
+          text=" 'But I have deadlines and projects I can’t delay' "
           image={require('../imgs/wallpaper.jpg')} />
         <Card
-          title="Feeling feverish/chills"
-          text="When they sick AF"
+          title="Feeling feverish/chills?"
+          text=" 'I worry about being seen as unreliable' "
           image={require('../imgs/wallpaper2.jpg')} />
         <Card
-          title="Cough"
-          text="When they sick AF"
+          title="Cough?"
+          text=" 'I don’t have enough paid sick days' "
           image={require('../imgs/wallpaper3.jpg')} />
         <Card
-          title="Sore throat"
-          text="When they sick AF"
+          title="Sore throat?"
+          text=" 'I feel responsible for my team' "
           image={require('../imgs/wallpaper4.jpg')} />
         <Card
-          title="Runny nose"
-          text="When they sick AF"
+          title="Runny nose?"
+          text=" 'My symptoms are mild, just a runny nose' "
           image={require('../imgs/wallpaper.jpg')} />
         <Card
-          title="Stuffy nose"
-          text="When they sick AF"
+          title="Stuffy nose?"
+          text=" 'I can't work effectively from home' "
           image={require('../imgs/wallpaper2.jpg')} />
         <Card
-          title="Muscle/Body aches"
-          text="When they sick AF"
+          title="Muscle/Body aches?"
+          text=" 'I have an important meeting' "
           image={require('../imgs/wallpaper3.jpg')} />
         <Card
-          title="Headaches"
-          text="When they sick AF"
+          title="Headaches?"
+          text=" 'My symptoms aren't serious or contagious' "
           image={require('../imgs/wallpaper4.jpg')} />
         <Card
-          title="Fatigue (tiredness)"
-          text="When they sick AF"
+          title="Fatigue (tiredness)?"
+          text=" 'I should push through and show up' "
           image={require('../imgs/wallpaper.jpg')} />
       </div>
     </div>
